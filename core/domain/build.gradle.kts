@@ -5,10 +5,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.data"
+    namespace = "com.example.composeinandroid.core.domain"
     compileSdk = Version.compileSdk
     defaultConfig {
-        applicationId = "com.example.data"
+        applicationId = "com.example.composeinandroid.core.domain"
         minSdk = Version.minSdk
         targetSdk = Version.targetSdk
         versionCode = Version.versionCode
@@ -21,8 +21,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":core:data"))
-    implementation(project(":core:presentation"))
+//    implementation(project(":core:data"))
+//    implementation(project(":core:presentation"))
 
     implementation(Dep.androidGradlePlugin)
     implementation(Dep.Kotlin.kotlingradlePlugin)

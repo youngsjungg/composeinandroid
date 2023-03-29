@@ -20,4 +20,6 @@ rootProject.name = "composeinandroid"
 include (":app" )
 include(":core:presentation")
 include(":core:domain")
+
+
 include(":core:data")

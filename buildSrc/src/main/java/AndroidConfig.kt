@@ -23,11 +23,16 @@ object Dep {
     object Compose {
         private const val version = "1.2.0"
         const val composeGradlePlugin = "androidx.compose.ui:ui:$version"
+        const val composeActivityGradlePlugin = "androidx.activity:activity-compose:1.5.1"
+        const val composeMaterialGradlePlugin = "androidx.compose.material:material:$version"
+        const val composeMaterialIconGradlePlugin = "androidx.compose.material:material-icons-extended:$version"
         const val composeToolingPreviewGradlePlugin = "androidx.compose.ui:ui-tooling-preview:$version"
         const val composeTextJunitGradlePlugin = "androidx.compose.ui:ui-test-junit4:$version"
         const val composeToolingGradlePlugin = "androidx.compose.ui:ui-tooling:$version"
         const val composeTestManifestGradlePlugin = "androidx.compose.ui:ui-test-manifest:$version"
-
     }
+
+
+
 
 }

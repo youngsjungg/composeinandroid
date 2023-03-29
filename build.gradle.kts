@@ -19,8 +19,6 @@ buildscript {
 allprojects {
     repositories {
 
-
-
     }
 }
 task("clean", Delete::class) {
