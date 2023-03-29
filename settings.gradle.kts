@@ -19,5 +19,5 @@ dependencyResolutionManagement {
 rootProject.name = "composeinandroid"
 include (":app" )
 include(":core:presentation")
-include(":core:doamin")
+include(":core:domain")
 include(":core:data")

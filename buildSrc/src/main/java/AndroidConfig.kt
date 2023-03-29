@@ -11,7 +11,7 @@ object Dep {
 
     object Kotlin {
         const val version = "1.6.20"
-        const val gradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
+        const val kotlingradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
         const val serializationGradlePlugin = "org.jetbrains.kotlin:kotlin-serialization:$version"
     }
 
@@ -22,7 +22,12 @@ object Dep {
 
     object Compose {
         private const val version = "1.2.0"
-        const val composeGradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:$version"
+        const val composeGradlePlugin = "androidx.compose.ui:ui:$version"
+        const val composeToolingPreviewGradlePlugin = "androidx.compose.ui:ui-tooling-preview:$version"
+        const val composeTextJunitGradlePlugin = "androidx.compose.ui:ui-test-junit4:$version"
+        const val composeToolingGradlePlugin = "androidx.compose.ui:ui-tooling:$version"
+        const val composeTestManifestGradlePlugin = "androidx.compose.ui:ui-test-manifest:$version"
+
     }
 
 }
